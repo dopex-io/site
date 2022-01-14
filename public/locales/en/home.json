@@ -62,7 +62,7 @@
   "tokenModel": {
     "subHeader": "Synergy",
     "header": "Dual Token Model",
-    "paragraph": "Dopex utilizes two seperate tokens to coordinate new ecosystem dynamics in a synergistic feedback loop.",
+    "paragraph": "Dopex utilizes two separate tokens to coordinate new ecosystem dynamics in a synergistic feedback loop.",
     "dpx": {
       "description": "DPX is the limited supply governance token.",
       "paragraph": "It accrues fees and revenue from pools, vaults and wrappers."
