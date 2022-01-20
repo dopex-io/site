@@ -33,5 +33,10 @@
     "title": "Single Staking Option Vaults are now live on the app!",
     "paragraph": "Visit the page now to participate 🚀"
   },
+  "purchaseBanner": {
+    "title": "You can purchase $DPX and $rDPX via SushiSwap on Arbitrum(L2). We're currently not on Binance Smartchain.",
+    "paragraph": "Click on learn more for step-by-step instructions."
+  },
+  "Learn More": "Learn More",
   "go": "Go"
 }

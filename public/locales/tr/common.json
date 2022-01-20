@@ -30,7 +30,12 @@
   },
   "ssovLiveBanner": {
     "title": "Tek Staking Opsiyon Kasaları artık uygulamada yayında!",
-    "paragraph": "참가하려면 지금 페이지를 방문하세요 🚀"
+    "paragraph": "Katılmak için hemen sayfayı ziyaret edin 🚀"
   },
+  "purchaseBanner": {
+    "title": "Arbitrum(L2) ​​üzerinden SushiSwap aracılığıyla $DPX ve $DPX satın alabilirsiniz. Şu anda Binance Smart Chain'de değiliz.",
+    "paragraph": "Adım adım talimatlar için daha fazla bilgi için tıklayın."
+  },
+  "Learn More": "Daha fazla bilgi edin",
   "go": "Git"
 }
