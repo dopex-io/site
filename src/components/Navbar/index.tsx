@@ -19,7 +19,7 @@ import Sun from 'assets/home/Sun';
 import styles from './styles.module.scss';
 
 interface NavbarProps {
-  active: 'Home' | 'GitHub' | 'Documentation' | 'Sale';
+  active: 'Home' | 'GitHub' | 'Documentation' | 'Learn';
 }
 
 export default function Navbar(props: NavbarProps) {
@@ -62,7 +62,20 @@ export default function Navbar(props: NavbarProps) {
 
   const links = [
     { name: t('home'), to: '/' },
-    { name: t('sale'), to: '/sale' },
+    {
+      name: t('learn'),
+      subLinks: [
+        {
+          name: t('Academy'),
+          to: 'https://www.notion.so/dopex/Dopex-Academy-a6e2a5c7a8e84980b93c5ba04d44c2d5',
+        },
+        {
+          name: t('Wiki'),
+          to: 'https://www.notion.so/dopex/Dopexpedia-909043af30f344ecbfcf7be43478c3b5',
+        },
+        { name: t('Public sale'), to: '/sale' },
+      ],
+    },
     {
       name: t('community'),
       subLinks: [
