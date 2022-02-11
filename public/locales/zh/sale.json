@@ -1,63 +1,63 @@
 {
-  "siteDescription": "DPX 公开销售将于 6 月 21 日现场令牌销售页面参与",
+  "siteDescription": "DPX 公开销售将于 6 月 21 日上线",
   "siteTitle": "DPX 公开销售 | Dopex",
-  "saleIsLive": "销售是活的！",
+  "saleIsLive": "销售已上线！",
   "introduction": {
-    "title": "参加德菲最先进的选项协议",
-    "paragraph": "Dopex 今年夏天在以太坊和 L2 上推出的主网标志着无限制和节能期权交易的新时刻。"
+    "title": "参与Defi最先进的期权协议",
+    "paragraph": "今年夏天，Dopex在以太坊和 L2 上推出的主网,标志着一个无限制交易的、高效经济的期权交易新纪元的到来。"
   },
   "body": {
     "header": "销售详情",
-    "description": "熟悉这些简单的指点的销售。",
+    "description": "用这些简单的提示让您熟悉销售。",
     "grid": {
       "0": {
-        "heading": "日期和供应",
-        "paragraph": "总计 75，000 DPX（占总供应量的 15%）将通过存款合同交换 ETH。",
+        "heading": "日期与供应",
+        "paragraph": "总共有75,000个DPX（占总供应量的 15%）将会提供给通过存款合约兑换ETH的交易。",
         "linkTitle": "博客文章"
       },
       "1": {
         "heading": "存款合同",
-        "paragraph": "合同接受存款，直到DPX达到其最高价格或销售在2021年6月24日结束。",
+        "paragraph": "合同接受存款，直到DPX达到其最高价格或销售在结束日2021年6月24日。",
         "linkTitle": "Etherscan"
       },
       "2": {
         "heading": "公平分配",
-        "paragraph": "可索赔的DPX将基于其在最终存款总额中所占的份额。换句话说，没有正面运行，成为第一或最后一个并不重要。"
+        "paragraph": "可领取的DPX数量将基于他们在总存款中的份额。 换句话说，只要“上车”即可，早来晚来都没关系。"
       },
       "3": {
         "heading": "销售分销",
         "totalSupply": "总供应",
         "saleSupply": "销售供应",
         "maxPrice": "最高价格",
-        "ethInUsd": "以美元为以ETH表示",
-        "helperText": "销售遵循一个线性图，确定每个参与者的最终令牌价格。"
+        "ethInUsd": "以美元为以的ETH",
+        "helperText": "销售遵循线性图，以此确定每个参与者的最终代币价格。"
       },
       "4": {
-        "heading": "DPX 排放和分配",
-        "helperText": "上述代币销售分配是公开销售和早期投资者分配的总和。"
+        "heading": "DPX 分发与分配",
+        "helperText": "上述代币销售分配是公开销售和早期投资者分配的总量。"
       }
     }
   },
   "features": {
-    "header": "特征",
+    "header": "特色",
     "subHeader": "了解DPX",
-    "paragraph": "DPX 是原生协议令牌。以太坊作为标准ERC-20令牌发行，将用作Dopex上事实上的治理令牌。",
+    "paragraph": "DPX 是原生协议代币。作为标准的ERC-20代币在以太坊上发行，它将被用作Dopex事实上的治理代币。",
     "grid": {
       "0": {
-        "heading": "治理令牌",
-        "paragraph": "DPX 用于对协议和应用级别提案进行投票。"
+        "heading": "治理代币",
+        "paragraph": "DPX可用于对协议和应用级别的提案进行投票。"
       },
       "1": {
-        "heading": "双令牌模型",
-        "paragraph": "选项编写器获取可用于合成资产的 rDPX。"
+        "heading": "双代币模型",
+        "paragraph": "期权卖家获取可用于合成资产的 rDPX。"
       },
       "2": {
         "heading": "协议收入",
-        "paragraph": "随着时间的推移，持有人从 Dopex 的协议中获得收入。"
+        "paragraph": "随着时间的推移，持有者从Dopex协议中获得收入。"
       },
       "3": {
         "heading": "平台奖励",
-        "paragraph": "期权池流动性提供商接收 DPX 排放。"
+        "paragraph": "期权池流动性提供商获取发放的DPX。"
       }
     }
   },
@@ -65,39 +65,39 @@
   "roadMap": {
     "subHeader": "我们的方向",
     "header": "路线图",
-    "paragraph": "从分散的杠杆到综合资产。找出是什么让团队对 Dopex 的未来感到兴奋。",
+    "paragraph": "从去中心的杠杆到合成资产。了解是什么让团队对 Dopex 的未来感到兴奋。",
     "list": {
       "0": "杠杆期权交易",
-      "1": "场外门户",
+      "1": "柜台交易市场门户网站",
       "2": "保险池",
-      "3": "保险池",
-      "4": "波动性仲裁策略保险库",
+      "3": "Curve Meta池",
+      "4": "波动率仲裁策略保险库",
       "5": "私人和自定义池",
       "6": "新的定价方法",
       "7": "合成资产",
-      "8": "闪存练习选项"
+      "8": "快速行使期权"
     }
   },
   "faq": {
-    "header": "经常问的问题",
+    "header": "常见问题",
     "subHeader": "常见问题",
-    "paragraph": "如果可能，我们喜欢亲自回答您的问题，但在将我们的团队打到'不和谐'之前，请查看下面的常见问题解答",
+    "paragraph": "我们很乐意亲自回答您的问题，在您通过 Discord 联系我们的团队之前，请查看以下常见问题的解答",
     "data": {
       "0": {
-        "question": "这两个令牌都用于什么？",
-        "answer": "Dopex 使用两个令牌使协议以协同方式工作 \n • DPX - 香草治理和协议费应计代币 \n • rDPX - 返利令牌 - 也用于协议使用 \n 了解更多关于DPX及其牛论文 <a href='https://blog.dopex.io/dpx-bull-thesis-9c7fbcac1651' target='_blank' rel='noopener noreferrer' className='text-primary'> 这里. </a>"
+        "question": "两种代币都用于什么？",
+        "answer": "Dopex通过使用两种代币使协议以协同方式运作\n • DPX - 普通治理和协议费应计代币 \n • rDPX - 回扣代币 - 也用于协议使用 \n 了解更多关于DPX及Bull论文 <a href='https://blog.dopex.io/dpx-bull-thesis-9c7fbcac1651' target='_blank' rel='noopener noreferrer' className='text-primary'> 这里. </a>"
       },
       "1": {
-        "question": "这将是一个经典的代币销售（先到先得）？",
-        "answer": "是的。用户可以存入 ETH，直到达到最大上限或最后期限。"
+        "question": "这将是一个经典的代币销售吗（先到先得）？",
+        "answer": "是的。用户可以存入 ETH，直到达到最大上限或截止日期。"
       },
       "2": {
         "question": "是否有任何国家被排除在公开代币销售之外？",
         "answer": "所有被 OFAC 制裁的国家（包括美国）均被排除在外。"
       },
       "3": {
-        "question": "我在哪里可以阅读更多关于托克经济学（锁定、排放时间表等）？",
-        "answer": " 您可以在我们的文档中阅读有关我们托克经济学的一切 - <a href='https://docs.dopex.io/tokenomics' target='_blank' rel='noopener noreferrer' className='text-primary'>https://docs.dopex.io/tokenomics</a>"
+        "question": "在哪里可以阅读更多关于代币经济学（锁定期、发行时间表等）？",
+        "answer": " 您可在我们的文档中阅读有关我们代币济学的一切 - <a href='https://docs.dopex.io/tokenomics' target='_blank' rel='noopener noreferrer' className='text-primary'>https://docs.dopex.io/tokenomics</a>"
       }
     }
   }
