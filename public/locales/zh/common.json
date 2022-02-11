@@ -2,7 +2,7 @@
   "learnMore": "了解更多信息",
   "documentation": "文档",
   "github": "GitHub",
-  "tokenomics": "Tokenomics",
+  "tokenomics": "代币经济学",
   "launchApp": "启动应用程序",
   "copyright": "© 2021 Dopex",
   "community": "社区",
@@ -10,34 +10,35 @@
   "twitter": "Twitter",
   "blog": "博客",
   "developers": "开发 人员",
-  "home": "家",
-  "sale": "销售",
-  "learn": "学习",
-  "Public sale": "公开发售",
+  "tokenSale": "代币出售",
+  "home": "主页",
+  "sale": "出售",
+  "learn": "了解更多",
+  "Public sale": "公开贩售",
   "tokenSaleLiveBanner": {
     "title": "Dopex 令牌销售是实时的!",
     "paragraph": "立即访问页面以参与 🚀"
   },
   "farmsLiveBanner": {
-    "title": "该农场现已在 Arbitrum 上线，质押您的 DPX 和 rDPX！",
-    "paragraph": "立即访问页面参与🚀"
+    "title": "DPX和rDPX质押池已在Arbitrum链上线！",
+    "paragraph": "立即访问页面参与 🚀"
   },
   "testnetLiveBanner": {
-    "title": "公共测试网现已在 Arbitrum Rinkeby 上线！",
-    "paragraph": "立即访问页面参与🚀"
+    "title": "公共测试网现已在 Arbitrum Rinkeby链上线！",
+    "paragraph": "立即访问页面参与 🚀"
   },
   "ssovTestnetLiveBanner": {
-    "title": "SSOV 测试网现已在 Kovan 上线！",
-    "paragraph": "立即访问页面参与🚀"
+    "title": "SSOV 测试网现已在 Kovan链上线！",
+    "paragraph": "立即访问页面参与 🚀"
   },
   "ssovLiveBanner": {
-    "title": "Single Staking Option Vaults 现已在应用程序中上线！",
-    "paragraph": "참가하려면 지금 페이지를 방문하세요 🚀"
+    "title": "Single Staking Option Vaults 单币质押期权库的应用程序已上线！",
+    "paragraph": "立即访问页面参与 🚀"
   },
   "purchaseBanner": {
-    "title": "您可以通过 Arbitrum(L2) 上的 SushiSwap 购买 $DPX 和 $DPX。",
-    "paragraph": "单击了解更多以获取分步说明。"
+    "title": "您可通过Sushi上的 Arbitrum(L2)链购买 $DPX 和 $rDPX.",
+    "paragraph": "单击了解更多分步说明."
   },
-  "Learn More": "学到更多",
+  "Learn More": "了解更多",
   "go": "去"
 }
