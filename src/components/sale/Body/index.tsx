@@ -44,7 +44,7 @@ const Body = () => {
             heading={t('body.grid.0.heading')}
             paragraph={t('body.grid.0.paragraph')}
             linkTitle={t('body.grid.0.linkTitle') + '⟶'}
-            link="https://blog.dopex.io/announcement-dopex-dpx-public-token-sale-81b36d67b7f6"
+            link="https://blog.dopex.io/"
             className="md:w-1/3 md:mr-3"
           ></GridItem>
           <GridItem
