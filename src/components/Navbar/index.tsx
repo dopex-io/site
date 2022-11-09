@@ -210,6 +210,8 @@ export default function Navbar(props: NavbarProps) {
             href="https://app.dopex.io"
             variant="contained"
             color="primary"
+            target="_blank"
+            rel="noreferrer noopener"
           >
             {t('launchApp')}
           </Button>

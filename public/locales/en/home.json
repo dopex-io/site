@@ -10,7 +10,7 @@
     "1": {
       "name": "More Liquidity",
       "subHeader": "Traders",
-      "paragraph": "Asset pools helps source liquidity for on-demand option writing across option chains"
+      "paragraph": "Asset pools help source liquidity for on-demand option writing across option chains"
     },
     "2": {
       "name": "Worry Less",
@@ -41,7 +41,7 @@
       },
       "4": {
         "heading": "Fully Collateralized",
-        "paragraph": "All options have the collateral to back them, removing risk of third party defaults."
+        "paragraph": "All options have the collateral to back them, removing the risk of third-party defaults."
       },
       "5": {
         "heading": "Synths with rDPX",
@@ -68,8 +68,8 @@
       "paragraph": "It accrues fees and revenue from pools, vaults and wrappers."
     },
     "rdpx": {
-      "description": "rDPX is the rebate token for options writers.",
-      "paragraph": "It can be used to mint synthetic assets such as indices, stocks etc."
+      "description": "rDPX is the rebate token for option writers.",
+      "paragraph": "It can be used to mint synthetic assets such as indices, stocks, etc."
     }
   }
 }
