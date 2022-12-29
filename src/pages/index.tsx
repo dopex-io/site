@@ -23,7 +23,7 @@ export default function Home() {
       </Head>
       <Box className="overflow-x-hidden bg-white-dark dark:bg-black text-white">
         <Navbar active="Home" />
-        <PurchaseBanner />
+        {/* <PurchaseBanner /> */}
         <Introduction />
         <Benefits />
         <Body />

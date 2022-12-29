@@ -18,7 +18,6 @@ const INVESTORS_DATA = [
     src: '/png/defi_god.png',
     imgClasses: 'rounded-full h-16 lg:h-24',
   },
-
   {
     alt: 'Orthogonal',
     src: '/png/orthogonal_trading.png',
@@ -51,7 +50,7 @@ const INVESTORS_DATA = [
   },
   {
     alt: 'Hardwood Orcz',
-    src: '/svg/debase.svg',
+    src: '/svg/hardwood_orcz.svg',
     imgClasses: 'h-14 lg:h-20 dark:invert dark:brightness-0 filter',
   },
   {

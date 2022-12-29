@@ -17,7 +17,7 @@ const Introduction = () => {
   const { t: tc } = useTranslation('common');
 
   return (
-    <Section className="mb-20 md:mb-0 pt-3 sm:pt-3 md:pt-3 lg:pt-3 xl:pt-3">
+    <Section className="mt-32 mb-20 md:mb-0 pt-3 sm:pt-3 md:pt-3 lg:pt-3 xl:pt-3">
       <Box className="flex flex-col items-center pt-5 px-5 md:items-center">
         <Typography variant="h1" className="mb-6 md:m-1 md:text-center">
           <GradientText>D</GradientText>
