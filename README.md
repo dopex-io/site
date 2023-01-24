@@ -6,7 +6,7 @@
 
 Please have these installed on your machine:
 
-- [Node.js 12+](https://nodejs.org/)
+- [Node.js 16+](https://nodejs.org/)
 - [Yarn v1](https://classic.yarnpkg.com/lang/)
 
 ### Install dependencies:
