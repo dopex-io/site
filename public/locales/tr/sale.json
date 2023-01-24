@@ -3,8 +3,8 @@
   "siteTitle": "DPX Kamu Satışı | Dopex",
   "saleIsLive": "Satış Canlı!",
   "introduction": {
-    "title": "Defi'nin en gelişmiş seçenekler protokolüne katılın",
-    "paragraph": "Dopex'in ana ağı bu yaz Ethereum ve L2'de lansmanı, sınırsız ve gaz verimli opsiyon ticareti için yeni bir anı işaret ediyor."
+    "title": "Dopex Kamu Satışı",
+    "paragraph": "Dopex Kamu Satışı 24 Haziran 2021'de sona erdi."
   },
   "body": {
     "header": "Satış Detayları",
@@ -84,18 +84,14 @@
     "paragraph": "Sorularınızı mümkün olduğunda yüz yüze yanıtlamaktan keyif alıyoruz ancak Discord'da ekibimize ping göndermeden önce lütfen aşağıdaki SSS bölümümüzü inceleyin.",
     "data": {
       "0": {
-        "question": "Her iki Jeton ne için kullanılır?",
-        "answer": "Dopex, protokolün sinerjik bir şekilde çalışması için iki jeton kullanır \n • DPX - vanilya yönetişimi ve protokol ücreti tahakkuk belirteci \n • rDPX - indirim belirteci - protokol kullanımı için de kullanılır \n DPX ve Boğa Tezi hakkında daha fazla bilgi edinin <a href='https://blog.dopex.io/dpx-bull-thesis-9c7fbcac1651' target='_blank' rel='noopener noreferrer' className='text-primary'> here. </a>"
-      },
-      "1": {
         "question": "Klasik bir jeton satışı mı olacak (ilk gelene ilk hizmet)?",
         "answer": "Evet. Kullanıcılar, maksimum sınıra veya son tarihe ulaşılana kadar ETH yatırabilir."
       },
-      "2": {
+      "1": {
         "question": "Halka açık token satışından hariç tutulan ülkeler var mı?",
         "answer": "OFAC tarafından onaylanan tüm ülkeler hariç tutulmuştur (Amerika dahil)."
       },
-      "3": {
+      "2": {
         "question": "Tokenomics (kilitleme, emisyon programı vb.) hakkında daha fazla bilgiyi nereden okuyabilirim?",
         "answer": " Belirteçlerimizle ilgili her şeyi buradaki belgelerimizde okuyabilirsiniz. - <a href='https://docs.dopex.io/tokenomics' target='_blank' rel='noopener noreferrer' className='text-primary'>https://docs.dopex.io/tokenomics</a>"
       }

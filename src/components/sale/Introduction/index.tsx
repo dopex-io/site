@@ -1,7 +1,6 @@
 import Button from '@material-ui/core/Button';
 import Box from '@material-ui/core/Box';
-import { useTranslation } from 'react-i18next';
-
+import { useTranslation } from 'next-i18next';
 import Launch from 'assets/sale/Launch';
 import Section from 'components/UI/Section';
 import Typography from 'components/UI/Typography';
@@ -11,7 +10,7 @@ const Introduction = () => {
   const { t: tc } = useTranslation('common');
 
   return (
-    <Section className="flex flex-col relative lg:flex-row items-center mb-6 md:mb-0 pt-12 sm:pt-8 sm:pb-12">
+    <Section className="flex flex-col relative lg:flex-row items-center mb-6 md:mb-0 pt-12 sm:pt-8 sm:pb-12 mt-32">
       <Box className="flex flex-col z-10 lg:w-2/3">
         <Typography
           variant="h2"

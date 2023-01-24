@@ -12,12 +12,14 @@
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
-    "next": "^12.0.10",
-    "next-i18next": "^11.0.0",
+    "i18next": "^22.4.9",
+    "next": "^13",
+    "next-i18next": "^13",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^12.1.4",
     "react-icons": "^4.2.0",
-    "recharts": "2.2.0",
+    "recharts": "^2.3.2",
     "sass": "^1.49.7"
   },
   "devDependencies": {
@@ -26,7 +28,7 @@
     "autoprefixer": "^10.2.6",
     "cross-env": "^7.0.3",
     "eslint": "^8.8.0",
-    "eslint-config-next": "^12.0.10",
+    "eslint-config-next": "^13",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "postcss": "^8.4.6",

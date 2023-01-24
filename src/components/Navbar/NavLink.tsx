@@ -1,6 +1,7 @@
 import { FC, ReactNode } from 'react';
 import Link from 'next/link';
 import cx from 'classnames';
+import Box from '@material-ui/core/Box';
 
 const NavLink: FC<{
   name?: string;
@@ -28,9 +29,9 @@ const NavLink: FC<{
   } else {
     return (
       <Link href={to}>
-        <a className={children ? '' : linkClassName}>
+        <Box className={children ? '' : linkClassName}>
           {children ? children : name}
-        </a>
+        </Box>
       </Link>
     );
   }

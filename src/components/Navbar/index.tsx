@@ -7,8 +7,7 @@ import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import MenuIcon from '@material-ui/icons/Menu';
 import IconButton from '@material-ui/core/IconButton';
-import { useTranslation } from 'react-i18next';
-
+import { useTranslation } from 'next-i18next';
 import NavLink from './NavLink';
 import NavSubMenu from './NavSubMenu';
 import LangMenu from './LangMenu';
@@ -19,7 +18,7 @@ import Sun from 'assets/home/Sun';
 import styles from './styles.module.scss';
 
 interface NavbarProps {
-  active?: 'Home' | 'GitHub' | 'Documentation' | 'Learn';
+  active?: 'Home';
 }
 
 export default function Navbar(props: NavbarProps) {
@@ -65,15 +64,11 @@ export default function Navbar(props: NavbarProps) {
     {
       name: t('learn'),
       subLinks: [
+        { name: t('blog'), to: 'https://blog.dopex.io' },
         {
-          name: t('Academy'),
-          to: 'https://www.notion.so/dopex/Dopex-Academy-a6e2a5c7a8e84980b93c5ba04d44c2d5',
+          name: t('Knowledge Base'),
+          to: 'https://dopex.notion.site/The-Dopex-Knowledge-Base-6a8e6b6cb2d84db3b5ea5824553c7c7b',
         },
-        {
-          name: t('Wiki'),
-          to: 'https://www.notion.so/dopex/Dopexpedia-909043af30f344ecbfcf7be43478c3b5',
-        },
-        { name: t('Public Sale'), to: '/sale' },
       ],
     },
     {
@@ -81,15 +76,13 @@ export default function Navbar(props: NavbarProps) {
       subLinks: [
         { name: t('twitter'), to: 'https://twitter.com/dopex_io' },
         { name: t('discord'), to: 'https://discord.gg/dopex' },
-        { name: 'DefiPulse', to: 'https://defipulse.com/' },
-        { name: t('blog'), to: 'https://blog.dopex.io' },
       ],
     },
     {
       name: t('developers'),
       subLinks: [
-        { name: t('github'), to: 'https://github.com/dopex-io' },
         { name: t('documentation'), to: 'https://docs.dopex.io/' },
+        { name: t('github'), to: 'https://github.com/dopex-io' },
       ],
     },
   ];
@@ -101,14 +94,14 @@ export default function Navbar(props: NavbarProps) {
         styles.navbar
       )}
     >
-      <Box className="max-w-md mx-auto w-full flex flex-row items-center p-5 relative 2xl:max-w-6xl xl:max-w-6xl lg:max-w-4xl sm:max-w-xl sm:p-6">
-        <Link href="/">
-          <a className="flex items-center text-white flex-grow cursor-pointer hover:no-underline">
+      <Box className="max-w-md mx-auto w-full flex flex-row justify-between items-center p-5 relative 2xl:max-w-6xl xl:max-w-6xl lg:max-w-4xl sm:max-w-xl sm:p-6">
+        <Link href="/" className="block">
+          <Box className="flex items-center text-white flex-grow cursor-pointer hover:no-underline">
             <img src="/svg/logo.svg" alt="logo" className="w-9" />
             <span className="ml-5 text-xl font-extrabold text-black dark:text-white font-mono">
               DOPEX
             </span>
-          </a>
+          </Box>
         </Link>
         <Box className="flex flex-row visible items-center absolute right-10 lg:invisible">
           {theme === 'dark' ? (

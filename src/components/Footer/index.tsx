@@ -1,6 +1,6 @@
 import { FC, ReactNode } from 'react';
 import Box from '@material-ui/core/Box';
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'next-i18next';
 import {
   FaDiscord,
   FaGithub,
@@ -11,6 +11,7 @@ import {
 
 import Section from 'components/UI/Section';
 import Typography from 'components/UI/Typography';
+import Link from 'next/link';
 
 const FooterLink: FC<{
   href: string;
@@ -59,6 +60,25 @@ const Footer = () => {
         <Box className="flex flex-row">
           <Box className="flex flex-col mr-7 w-1/2 sm:mr-20">
             <Typography variant="h4" className="mb-2">
+              {t('learn')}
+            </Typography>
+            <ul>
+              <FooterLink
+                name={t('blog')}
+                href="https://discord.gg/dopex"
+                target="_blank"
+                rel="noopener noreferrer"
+              />
+              <FooterLink
+                name={t('Knowledge Base')}
+                href="https://twitter.com/dopex_io"
+                target="_blank"
+                rel="noopener noreferrer"
+              />
+            </ul>
+          </Box>
+          <Box className="flex flex-col mr-7 w-1/2 sm:mr-20">
+            <Typography variant="h4" className="mb-2">
               {t('community')}
             </Typography>
             <ul>
@@ -76,14 +96,6 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 Icon={FaTwitter}
               />
-              <FooterLink
-                href="https://defipulse.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                imgSrc="/svg/defi_pulse.svg"
-              >
-                DefiPulse
-              </FooterLink>
               <FooterLink
                 href="https://blog.dopex.io/"
                 target="_blank"
@@ -113,6 +125,18 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 Icon={FaReadme}
               />
+            </ul>
+          </Box>
+          <Box className="flex flex-col mr-7 w-1/2 sm:mr-20">
+            <Typography variant="h4" className="mb-2">
+              {t('other')}
+            </Typography>
+            <ul>
+              <Link href="/">
+                <Typography variant="p" component="span">
+                  {t('sale')}
+                </Typography>
+              </Link>
             </ul>
           </Box>
         </Box>

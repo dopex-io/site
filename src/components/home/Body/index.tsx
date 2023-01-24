@@ -1,6 +1,5 @@
 import Box from '@material-ui/core/Box';
-import { useTranslation } from 'react-i18next';
-
+import { useTranslation } from 'next-i18next';
 import Typography from 'components/UI/Typography';
 import Section from 'components/UI/Section';
 import ConstantYield from 'assets/home/ConstantYield';

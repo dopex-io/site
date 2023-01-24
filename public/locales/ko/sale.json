@@ -3,8 +3,8 @@
   "siteTitle": "DPX 퍼블릭 세일| Dopex",
   "saleIsLive": "판매가 시작되었습니다!",
   "introduction": {
-    "title": "Defi의 가장 진보 된 옵션 프로토콜에 참여",
-    "paragraph": "이번 여름에 이더 리움과 L2에서 Dopex의 메인 넷 출시는 제한없는 가스 효율적인 옵션 거래의 새로운 순간을 의미합니다."
+    "title": "Dopex 퍼블릭 세일",
+    "paragraph": "Dopex 퍼블릭 세일은 2021년 6월 24일에 종료되었습니다."
   },
   "body": {
     "header": "판매 세부 정보",
@@ -84,18 +84,14 @@
     "paragraph": "가능하면 직접 질문에 답해 드리지만 Discord에서 저희 팀을 핑하기 전에 아래의 '자주 묻는 질문'을 확인하세요.",
     "data": {
       "0": {
-        "question": "두 토큰은 무엇에 사용됩니까?",
-        "answer": "Dopex는 프로토콜이 시너지 방식으로 작동하도록 두 개의 토큰을 사용합니다. \n • DPX-바닐라 거버넌스 및 프로토콜 수수료 발생 토큰 \n • rDPX-리베이트 토큰-프로토콜 사용에도 사용됨 \n DPX 및 Bull Thesis에 대해 자세히 알아보기 <a href='https://blog.dopex.io/dpx-bull-thesis-9c7fbcac1651' target='_blank' rel='noopener noreferrer' className='text-primary'> here. </a>"
-      },
-      "1": {
         "question": "고전적인 토큰 판매일까요 (선착순)?",
         "answer": "예. 사용자는 최대 한도 또는 기한에 도달 할 때까지 ETH를 입금 할 수 있습니다."
       },
-      "2": {
+      "1": {
         "question": "공개 토큰 판매에서 제외 된 국가가 있습니까?",
         "answer": "모든 OFAC 제재 국가는 제외됩니다 (미국 포함)."
       },
-      "3": {
+      "2": {
         "question": "Tokenomics (잠금, 배출 일정 등)에 대한 자세한 내용은 어디에서 읽을 수 있습니까?",
         "answer": " 여기 문서에서 토큰 노믹스에 대한 모든 것을 읽을 수 있습니다.- <a href='https://docs.dopex.io/tokenomics' target='_blank' rel='noopener noreferrer' className='text-primary'>https://docs.dopex.io/tokenomics</a>"
       }

@@ -12,8 +12,7 @@ import Four from 'assets/sale/Four';
 import Five from 'assets/sale/Five';
 import DPXAllocationLg from 'assets/sale/DPXAllocationLg';
 import DPXAllocationSm from 'assets/sale/DPXAllocationSm';
-import { useTranslation } from 'react-i18next';
-
+import { useTranslation } from 'next-i18next';
 import {
   AreaChart,
   Area,
@@ -43,8 +42,6 @@ const Body = () => {
             Icon={One}
             heading={t('body.grid.0.heading')}
             paragraph={t('body.grid.0.paragraph')}
-            linkTitle={t('body.grid.0.linkTitle') + '⟶'}
-            link="https://blog.dopex.io/"
             className="md:w-1/3 md:mr-3"
           ></GridItem>
           <GridItem

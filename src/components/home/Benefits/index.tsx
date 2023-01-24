@@ -1,7 +1,6 @@
 import cx from 'classnames';
 import Box from '@material-ui/core/Box';
-import { useTranslation } from 'react-i18next';
-
+import { useTranslation } from 'next-i18next';
 import Typography from 'components/UI/Typography';
 import Section from 'components/UI/Section';
 import Graph from 'assets/home/Graph';

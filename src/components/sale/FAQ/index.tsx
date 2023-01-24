@@ -4,8 +4,7 @@ import AccordionSummary from '@material-ui/core/AccordionSummary';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Box from '@material-ui/core/Box';
-import { useTranslation } from 'react-i18next';
-
+import { useTranslation } from 'next-i18next';
 import Section from 'components/UI/Section';
 import Typography from 'components/UI/Typography';
 
@@ -43,7 +42,7 @@ const FAQBlock = ({ question, answer }: FAQBlockProps) => {
 const FAQ = () => {
   const { t } = useTranslation('sale');
 
-  const faqData = [0, 1, 2, 3].map((index) => {
+  const faqData = [0, 1, 2].map((index) => {
     return {
       question: t(`faq.data.${index}.question`),
       answer: t(`faq.data.${index}.answer`),

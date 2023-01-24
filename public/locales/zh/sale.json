@@ -3,8 +3,8 @@
   "siteTitle": "DPX 公开销售 | Dopex",
   "saleIsLive": "销售已上线！",
   "introduction": {
-    "title": "参与Defi最先进的期权协议",
-    "paragraph": "今年夏天，Dopex在以太坊和 L2 上推出的主网,标志着一个无限制交易的、高效经济的期权交易新纪元的到来。"
+    "title": "Dopex 公开发售",
+    "paragraph": "Dopex 公开发售于 2021 年 6 月 24 日结束。"
   },
   "body": {
     "header": "销售详情",
@@ -84,18 +84,14 @@
     "paragraph": "我们很乐意亲自回答您的问题，在您通过 Discord 联系我们的团队之前，请查看以下常见问题的解答",
     "data": {
       "0": {
-        "question": "两种代币都用于什么？",
-        "answer": "Dopex通过使用两种代币使协议以协同方式运作\n • DPX - 普通治理和协议费应计代币 \n • rDPX - 回扣代币 - 也用于协议使用 \n 了解更多关于DPX及Bull论文 <a href='https://blog.dopex.io/dpx-bull-thesis-9c7fbcac1651' target='_blank' rel='noopener noreferrer' className='text-primary'> 这里. </a>"
-      },
-      "1": {
         "question": "这将是一个经典的代币销售吗（先到先得）？",
         "answer": "是的。用户可以存入 ETH，直到达到最大上限或截止日期。"
       },
-      "2": {
+      "1": {
         "question": "是否有任何国家被排除在公开代币销售之外？",
         "answer": "所有被 OFAC 制裁的国家（包括美国）均被排除在外。"
       },
-      "3": {
+      "2": {
         "question": "在哪里可以阅读更多关于代币经济学（锁定期、发行时间表等）？",
         "answer": " 您可在我们的文档中阅读有关我们代币济学的一切 - <a href='https://docs.dopex.io/tokenomics' target='_blank' rel='noopener noreferrer' className='text-primary'>https://docs.dopex.io/tokenomics</a>"
       }

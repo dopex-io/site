@@ -3,8 +3,8 @@
   "siteTitle": "DPX Public Sale | Dopex",
   "saleIsLive": "Sale is Live!",
   "introduction": {
-    "title": "Participate in Defi's most advanced options protocol",
-    "paragraph": "Dopex's mainnet launch this summer on Ethereum and L2 marks a new moment for unrestricted and gas efficient options trading."
+    "title": "Dopex Public Sale",
+    "paragraph": "The Dopex Public Sale concluded on June 24th, 2021."
   },
   "body": {
     "header": "Sale Details",
@@ -83,18 +83,14 @@
     "paragraph": "We enjoy answering your questions in person when possible but please check our FAQ below before pinging our team on Discord",
     "data": {
       "0": {
-        "question": "What are both Tokens used for?",
-        "answer": "Dopex makes use of two tokens for the protocol to work in a synergistic manner \n • DPX - vanilla governance and protocol fee accrual token \n • rDPX - rebate token - also used for protocol usage \n Learn more about DPX and its Bull Thesis <a href='https://blog.dopex.io/dpx-bull-thesis-9c7fbcac1651' target='_blank' rel='noopener noreferrer' className='text-primary'> here. </a>"
-      },
-      "1": {
         "question": "Will it be a classic token sale (first come, first served)?",
         "answer": "Yes. Users can deposit ETH until a max cap or deadline is reached."
       },
-      "2": {
+      "1": {
         "question": "Are any countries excluded from the public token sale?",
         "answer": "All OFAC sanctioned countries are excluded (including US)."
       },
-      "3": {
+      "2": {
         "question": "Where can I read more on Tokenomics (lock-up, emission schedule, etc.)?",
         "answer": " You can read everything about our tokenomics in our documentation here - <a href='https://docs.dopex.io/tokenomics' target='_blank' rel='noopener noreferrer' className='text-primary'>https://docs.dopex.io/tokenomics</a>"
       }
