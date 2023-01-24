@@ -19,16 +19,6 @@ const INVESTORS_DATA = [
     imgClasses: 'rounded-full h-16 lg:h-24',
   },
   {
-    alt: 'Orthogonal',
-    src: '/png/orthogonal_trading.png',
-    imgClasses: 'filter h-24 dark:invert dark:brightness-0',
-  },
-  {
-    alt: 'LedgerPrime',
-    src: '/png/ledger_prime.png',
-    imgClasses: 'filter h-24 dark:invert dark:brightness-0',
-  },
-  {
     alt: 'OrcaTraders',
     src: '/png/orca_traders.png',
     imgClasses: 'filter h-24 dark:invert dark:brightness-0',
@@ -37,11 +27,6 @@ const INVESTORS_DATA = [
     alt: 'Pattern',
     src: '/png/pattern.png',
     imgClasses: 'filter h-36 dark:invert dark:brightness-0',
-  },
-  {
-    alt: 'SCC Investments',
-    src: '/svg/scc_investments.svg',
-    imgClasses: 'filter h-40 dark:invert dark:brightness-0',
   },
   {
     alt: 'Debase',
