@@ -39,19 +39,19 @@ const Footer = () => {
 
   return (
     <Section className="p-0 m-0">
-      <Box className="flex flex-col m-auto sm:flex-row">
-        <div className="flex flex-col mb-6 sm:mr-20">
+      <Box className="flex flex-col m-auto md:flex-row">
+        <Box className="flex flex-col mb-6 md:mr-20">
           <img
             src="/svg/logo.svg"
             alt="logo"
-            className="w-10 h-10 my-2 mr-7 sm:mb-4"
+            className="w-10 h-10 my-2 mr-7 md:mb-4"
           />
           <Typography variant="p" className="copyright">
             {t('copyright')}
           </Typography>
-        </div>
-        <Box className="flex flex-row">
-          <Box className="flex flex-col mr-7 w-1/2 sm:mr-20">
+        </Box>
+        <Box className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <Box className="flex flex-col">
             <Typography variant="h4" className="mb-2">
               {t('learn')}
             </Typography>
@@ -70,7 +70,7 @@ const Footer = () => {
               />
             </ul>
           </Box>
-          <Box className="flex flex-col mr-7 w-1/2 sm:mr-20">
+          <Box className="flex flex-col">
             <Typography variant="h4" className="mb-2">
               {t('community')}
             </Typography>
@@ -87,13 +87,6 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               />
-              <FooterLink
-                href="https://blog.dopex.io/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {t('blog')}
-              </FooterLink>
             </ul>
           </Box>
           <Box className="flex flex-col">
@@ -115,7 +108,7 @@ const Footer = () => {
               />
             </ul>
           </Box>
-          <Box className="flex flex-col mr-7 w-1/2 sm:mr-20">
+          <Box className="flex flex-col">
             <Typography variant="h4" className="mb-2">
               {t('other')}
             </Typography>
