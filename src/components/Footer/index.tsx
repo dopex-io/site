@@ -1,13 +1,6 @@
 import { FC, ReactNode } from 'react';
 import Box from '@material-ui/core/Box';
 import { useTranslation } from 'next-i18next';
-import {
-  FaDiscord,
-  FaGithub,
-  FaTwitter,
-  FaReadme,
-  FaBlog,
-} from 'react-icons/fa';
 
 import Section from 'components/UI/Section';
 import Typography from 'components/UI/Typography';
@@ -87,20 +80,17 @@ const Footer = () => {
                 href="https://discord.gg/dopex"
                 target="_blank"
                 rel="noopener noreferrer"
-                Icon={FaDiscord}
               />
               <FooterLink
                 name={t('twitter')}
                 href="https://twitter.com/dopex_io"
                 target="_blank"
                 rel="noopener noreferrer"
-                Icon={FaTwitter}
               />
               <FooterLink
                 href="https://blog.dopex.io/"
                 target="_blank"
                 rel="noopener noreferrer"
-                Icon={FaBlog}
               >
                 {t('blog')}
               </FooterLink>
@@ -116,14 +106,12 @@ const Footer = () => {
                 href="https://github.com/dopex-io"
                 target="_blank"
                 rel="noopener noreferrer"
-                Icon={FaGithub}
               />
               <FooterLink
                 name={t('documentation')}
                 href="https://docs.dopex.io/"
                 target="_blank"
                 rel="noopener noreferrer"
-                Icon={FaReadme}
               />
             </ul>
           </Box>
