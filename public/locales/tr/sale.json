@@ -38,46 +38,6 @@
       }
     }
   },
-  "features": {
-    "header": "Özellikleri",
-    "subHeader": "DPX'i tanıyın",
-    "paragraph": "DPX, yerel protokol belirtecidir. Ethereum'da standart bir ERC-20 belirteci olarak yayınlanan, Dopex'te fiili yönetişim belirteci olarak kullanılacaktır.",
-    "grid": {
-      "0": {
-        "heading": "Yönetim Simgesi",
-        "paragraph": "DPX, protokol ve uygulama düzeyindeki teklifleri oylamak için kullanılır."
-      },
-      "1": {
-        "heading": "Çift Jetonlu Model",
-        "paragraph": "Seçenek Yazarları, sentetik varlıklar için kullanılabilecek rDPX alır."
-      },
-      "2": {
-        "heading": "Protokol Geliri",
-        "paragraph": "Sahipler, zaman içinde Dopex'in protokolünden gelir elde eder.."
-      },
-      "3": {
-        "heading": "Platform Ödülleri",
-        "paragraph": "Opsiyon Havuzu likidite sağlayıcıları DPX emisyonları alır."
-      }
-    }
-  },
-
-  "roadMap": {
-    "subHeader": "Yönümüz",
-    "header": "Yol Haritası",
-    "paragraph": "Merkezi olmayan kaldıraçtan sentetik varlıklara. Ekibi Dopex'in geleceği hakkında neyin heyecanlandırdığını öğrenin.",
-    "list": {
-      "0": "KALDIRAÇLI SEÇENEK TİCARETİ",
-      "1": "OTC PORTALI",
-      "2": "SİGORTA HAVUZLARI",
-      "3": "CURVE METAPOOLLAR",
-      "4": "VOLATİLİTE TAHKİM STRATEJİ KASALARI",
-      "5": "ÖZEL & ÖZEL HAVUZLAR",
-      "6": "YENİ FİYATLANDIRMA YÖNTEMLERİ",
-      "7": "SENTETİK VARLIKLAR",
-      "8": "FLASH EGZERSİZ SEÇENEKLERİ"
-    }
-  },
   "faq": {
     "header": "Sıkça Sorulan Sorular",
     "subHeader": "SSS",

@@ -6,7 +6,6 @@ import Navbar from 'components/Navbar';
 import Footer from 'components/Footer';
 import Introduction from 'components/sale/Introduction';
 import Body from 'components/sale/Body';
-import Features from 'components/sale/Features';
 import FAQ from 'components/sale/FAQ';
 
 export default function Sale() {
@@ -22,7 +21,6 @@ export default function Sale() {
         <Navbar />
         <Introduction />
         <Body />
-        <Features />
         <FAQ />
         <Footer />
       </Box>

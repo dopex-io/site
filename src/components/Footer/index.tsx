@@ -113,7 +113,7 @@ const Footer = () => {
               {t('other')}
             </Typography>
             <ul>
-              <Link href="/">
+              <Link href="/sale">
                 <Typography variant="p" component="span">
                   {t('sale')}
                 </Typography>

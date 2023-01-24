@@ -38,45 +38,6 @@
       }
     }
   },
-  "features": {
-    "header": "Features",
-    "subHeader": "Get to know DPX",
-    "paragraph": "DPX is the native protocol token. Issued on Ethereum as a standard ERC-20 token, it will be utilized as the de-facto governance token on Dopex.",
-    "grid": {
-      "0": {
-        "heading": "Governance Token",
-        "paragraph": "DPX is used to vote on protocol and app level proposals."
-      },
-      "1": {
-        "heading": "Dual Token Model",
-        "paragraph": "Option Writers get rDPX that can be used for synthetic assets."
-      },
-      "2": {
-        "heading": "Protocol Income",
-        "paragraph": "Holders receive revenue from Dopex’s protocol over time.."
-      },
-      "3": {
-        "heading": "Platform Rewards",
-        "paragraph": "Option Pool liquidity providers receive DPX emissions."
-      }
-    }
-  },
-  "roadMap": {
-    "subHeader": "Our Direction",
-    "header": "Roadmap",
-    "paragraph": "From decentralized leverage to synthetic assets. Find out what has gotten the team excited about the future of Dopex.",
-    "list": {
-      "0": "LEVERAGED OPTIONS TRADING",
-      "1": "OTC PORTAL",
-      "2": "INSURANCE POOLS",
-      "3": "CURVE METAPOOLS",
-      "4": "VOLATILITY ARBITRATION STRATEGY VAULTS",
-      "5": "PRIVATE & CUSTOM POOLS",
-      "6": "NEW PRICING METHODS",
-      "7": "SYNTHETIC ASSETS",
-      "8": "FLASH EXERCISE OPTIONS"
-    }
-  },
   "faq": {
     "header": "Frequently Asked Questions",
     "subHeader": "FAQ",
