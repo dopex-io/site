@@ -1,21 +1,21 @@
 {
   "siteDescription": "Dopex, maksimum likidite ve minimum maruz kalma seçenekleri protokolüdür",
   "siteTitle": "Merkezi Olmayan Opsiyon Değişimi | Dopex",
-  "benefits": {
+  "products": {
     "0": {
-      "name": "Ofset Kuyruk Riski",
-      "subHeader": "Seçenek Yazarları",
-      "paragraph": "Meydana gelen kayıplar için rDPX indirimleri alın. Sentetik varlıkları basmak için rDPX kullanın."
+      "name": "SSOV Seçenekleri",
+      "subHeader": "Vanilya",
+      "paragraph": "Çeşitli getiri kaynaklarını pasif olarak kazanırken, teminatlı alımlar veya nakit teminatlı satışlar yoluyla opsiyon likiditesi sağlayın."
     },
     "1": {
-      "name": "Daha Fazla Likidite",
-      "subHeader": "Tüccarlar",
-      "paragraph": "Varlık havuzları, opsiyon zincirleri arasında isteğe bağlı opsiyon yazma için kaynak likiditesine yardımcı olur"
+      "name": "Likidite Havuzları",
+      "subHeader": "Seçenek",
+      "paragraph": "Opsiyon alıcılarının tokenleştirilmiş pozisyonlarından herhangi bir zamanda indirimli bir oranda kolayca çıkmaları ve satmaları için bir platform."
     },
     "2": {
-      "name": "Daha az endişelenmek",
-      "subHeader": "Likidite Sağlayıcılar",
-      "paragraph": "Likidite sağlarken DPX kazanarak Maruziyeti En Aza İndirin."
+      "name": "Atlantik Seçenekleri",
+      "subHeader": "yapılandırılmış",
+      "paragraph": "Alıcıların opsiyon teminatı ödünç almasını sağlayarak teminat birleştirilebilirliğini ve verimliliğini artırmayı amaçlayan yeni bir DeFi ilkesi."
     }
   },
   "body": {

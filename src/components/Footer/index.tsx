@@ -58,13 +58,13 @@ const Footer = () => {
             <ul>
               <FooterLink
                 name={t('blog')}
-                href="https://discord.gg/dopex"
+                href="https://blog.dopex.io/"
                 target="_blank"
                 rel="noopener noreferrer"
               />
               <FooterLink
                 name={t('Knowledge Base')}
-                href="https://twitter.com/dopex_io"
+                href="https://dopex.notion.site/The-Dopex-Knowledge-Base-6a8e6b6cb2d84db3b5ea5824553c7c7b"
                 target="_blank"
                 rel="noopener noreferrer"
               />

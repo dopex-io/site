@@ -1,21 +1,21 @@
 {
   "siteDescription": "Dopex是同时具有最大流动性和最小风险敞口的期权协议",
   "siteTitle": "去中心化期权交易平台 | Dopex",
-  "benefits": {
+  "products": {
     "0": {
-      "name": "抵消尾部风险",
-      "subHeader": "期权卖方",
-      "paragraph": "获取rDPX回佣代币弥补损失. 使用rDPX代币铸造合成资产"
+      "name": "SSOV 选项",
+      "subHeader": "香草",
+      "paragraph": "通过备兑看涨期权或现金担保看跌期权提供期权流动性，同时被动地赚取多样化的收益来源。"
     },
     "1": {
-      "name": "更多流动性",
-      "subHeader": "操盘手",
-      "paragraph": "资产池有助于为跨链期权的按需期权写作提供流动性来源"
+      "name": "流动资金池",
+      "subHeader": "选项",
+      "paragraph": "期权买家可以随时以折扣价轻松退出和出售其代币化头寸的平台。"
     },
     "2": {
-      "name": "减少担忧",
-      "subHeader": "流动性提供商",
-      "paragraph": "在提供流动性的同时，通过赚取DPX把风险减少到最低"
+      "name": "大西洋期权",
+      "subHeader": "结构化的",
+      "paragraph": "一种新颖的 DeFi 原语，旨在通过使买家能够借用期权抵押品来提高抵押品的可组合性和效率。"
     }
   },
   "body": {

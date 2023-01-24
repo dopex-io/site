@@ -7,14 +7,10 @@ import Typography from 'components/UI/Typography';
 const INVESTORS_DATA = [
   {
     name: 'TΞtranodΞ',
-    alt: 'Tetranode',
-    src: '/png/tetranode.png',
     imgClasses: 'rounded-full h-16 lg:h-24',
   },
   {
     name: 'DefiGod',
-    alt: 'DefiGod',
-    src: '/png/defi_god.png',
     imgClasses: 'rounded-full h-16 lg:h-24',
   },
   {
@@ -45,8 +41,8 @@ const INVESTORS_DATA = [
 ];
 
 interface GridItemProps {
-  src: string;
-  alt: string;
+  src?: string;
+  alt?: string;
   name?: string;
   imgClasses?: string;
   className?: string;
@@ -60,9 +56,11 @@ const GridItem = ({ src, alt, name, imgClasses, className }: GridItemProps) => {
         'flex flex-row items-center justify-center lg:justify-start w-64 lg:w-80'
       )}
     >
-      <img src={src} alt={alt} className={cx(imgClasses, 'object-contain')} />
+      {src ? (
+        <img src={src} alt={alt} className={cx(imgClasses, 'object-contain')} />
+      ) : null}
       {name ? (
-        <h3 className="ml-8 text-3xl text-black dark:text-white">{name}</h3>
+        <h3 className="ml-8 text-5xl text-black dark:text-white">{name}</h3>
       ) : null}
     </Box>
   );
@@ -77,8 +75,8 @@ const Investors = () => {
         {t('investorsAndPartners')}
       </Typography>
       <Box className="mt-24 grid grid-cols-1 md:grid-cols-2 justify-items-center gap-y-20 gap-x-10">
-        {INVESTORS_DATA.map((data) => {
-          return <GridItem key={data.alt} {...data} />;
+        {INVESTORS_DATA.map((data, index) => {
+          return <GridItem key={index} {...data} />;
         })}
       </Box>
     </Section>
