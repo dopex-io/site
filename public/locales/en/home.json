@@ -47,15 +47,6 @@
         "heading": "Synths with rDPX",
         "paragraph": "Mint synthetic assets like stocks and indices using rDPX as collateral."
       }
-    },
-    "protocolUsage": {
-      "header": "Protocol Usage",
-      "uniswap": "Dopex prepares assets post expiry from Uniswap to roll-over for next expiry.",
-      "uma": "Synthetic assets like indices, stocks are minted with rDPX as collateral on UMA.",
-      "chainlink": "Chainlink oracles provide Dopex with pricing and volatility data."
-    },
-    "audits": {
-      "header": "And Audits"
     }
   },
   "investorsAndPartners": "Investors & Partners",

@@ -47,15 +47,6 @@
         "heading": "rDPX ile Synth'ler",
         "paragraph": "Teminat olarak rDPX kullanarak hisse senetleri ve endeksler gibi sentetik varlıkları darp edin."
       }
-    },
-    "protocolUsage": {
-      "header": "Protokol Kullanımı",
-      "uniswap": "Dopex, varlıkları sona erdikten sonra Uniswap'tan bir sonraki sona erme için devretmek üzere hazırlar.",
-      "uma": "Endeksler, hisse senetleri gibi sentetik varlıklar, UMA'da teminat olarak rDPX ile basılmaktadır.",
-      "chainlink": "Chainlink oracles, Dopex'e fiyatlandırma ve oynaklık verileri sağlar."
-    },
-    "audits": {
-      "header": "Ve Denetimler"
     }
   },
   "investorsAndPartners": "Yatırımcılar ve Ortaklar",

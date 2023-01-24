@@ -47,15 +47,6 @@
         "heading": "rRDPX的合成品",
         "paragraph": "以rDPX为抵押品铸造合成资产，如股票和指数基金"
       }
-    },
-    "protocolUsage": {
-      "header": "协议使用",
-      "uniswap": "Dopex 在期权到期后准备好资产，从Uniswap回购到下一个到期日",
-      "uma": "在UMA上以rDPX为抵押品铸造如指数基金和股票的合成资产",
-      "chainlink": "Chainlink预言机为Dopex提供定价和波动性数据"
-    },
-    "audits": {
-      "header": "与审计"
     }
   },
   "investorsAndPartners": "投资者与合作伙伴",

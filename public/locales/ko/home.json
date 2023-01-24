@@ -47,15 +47,6 @@
         "heading": "rDPX와 신디사이저",
         "paragraph": "rDPX를 담보로 사용하는 주식 및 지수와 같은 합성 자산을 민트합니다."
       }
-    },
-    "protocolUsage": {
-      "header": "프로토콜 사용",
-      "uniswap": "Dopex는 Uniswap에서 만료 후 자산을 준비하여 다음 만료를 위해 롤오버합니다.",
-      "uma": "인덱스, 주식과 같은 합성 자산은 UMA의 담보로 rDPX와 함께 발행됩니다.",
-      "chainlink": "Chainlink 오라클은 Dopex에 가격 및 변동성 데이터를 제공합니다."
-    },
-    "audits": {
-      "header": "및 감사"
     }
   },
   "investorsAndPartners": "투자자 및 파트너",
