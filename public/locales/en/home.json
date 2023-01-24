@@ -3,19 +3,19 @@
   "siteTitle": "Decentralized Options Exchange | Dopex",
   "benefits": {
     "0": {
-      "name": "Offset Tail Risk",
-      "subHeader": "Option Writers",
-      "paragraph": "Receive rDPX rebates on losses incurred. Use rDPX to mint synthetic assets."
+      "name": "SSOV",
+      "subHeader": "Structured",
+      "paragraph": "Writers sell covered options to earn premiums & staking yield, Buyers are offered options for various tokens."
     },
     "1": {
-      "name": "More Liquidity",
-      "subHeader": "Traders",
-      "paragraph": "Asset pools help source liquidity for on-demand option writing across option chains"
+      "name": "Atlantic Options",
+      "subHeader": "DeFi Primitive",
+      "paragraph": "Atlantic options allow buyers to loan collateral locked on their options and writers to enjoy a passive funding fee."
     },
     "2": {
-      "name": "Worry Less",
+      "name": "Farms",
       "subHeader": "Liquidity Providers",
-      "paragraph": "Minimize Exposure by earning DPX while providing liquidity."
+      "paragraph": "Minimize impermanent loss exposure in double-sided pools by earning DPX while providing liquidity."
     }
   },
   "body": {
@@ -24,28 +24,20 @@
     "paragraph": "We built a protocol with vast improvements over the existing options market.",
     "grid": {
       "0": {
-        "heading": "Price Efficiency",
-        "paragraph": "Discounted options with instant arbitrage opportunities."
+        "heading": "Staking Yield",
+        "paragraph": "Your collateral never goes un-used and is put to work by staking in other protocol to earn yields."
       },
       "1": {
-        "heading": "Deeper Liquidity",
-        "paragraph": "Purchase and swap options with any strike price."
+        "heading": "Collateral Borrowing",
+        "paragraph": "Atlantic options offer buyers with unique products like applying straddle strategies with a fraction of the cost and insuring leveraged longs."
       },
       "2": {
         "heading": "Minimize Risk",
         "paragraph": "Offset risk and minimize losses as a liquidity provider with rDPX rebates."
       },
       "3": {
-        "heading": "Constant Yield",
-        "paragraph": "Earn DPX as rewards constantly when providing liquidity to Option Pools."
-      },
-      "4": {
         "heading": "Fully Collateralized",
         "paragraph": "All options have the collateral to back them, removing the risk of third-party defaults."
-      },
-      "5": {
-        "heading": "Synths with rDPX",
-        "paragraph": "Mint synthetic assets like stocks and indices using rDPX as collateral."
       }
     }
   },
@@ -60,7 +52,7 @@
     },
     "rdpx": {
       "description": "rDPX is the rebate token for option writers.",
-      "paragraph": "It can be used to mint synthetic assets such as indices, stocks, etc."
+      "paragraph": "A ton of other utility will be introduced for rDPX"
     }
   }
 }

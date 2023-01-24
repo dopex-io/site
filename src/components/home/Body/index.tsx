@@ -5,9 +5,7 @@ import Section from 'components/UI/Section';
 import ConstantYield from 'assets/home/ConstantYield';
 import DeeperLiquidity from 'assets/home/DeeperLiquidity';
 import MinimizeRisk from 'assets/home/MinimizeRisk';
-import FullyCollateralized from 'assets/home/FullyCollateralized';
 import PriceEfficiency from 'assets/home/PriceEfficiency';
-import Synths from 'assets/home/Synths';
 
 interface GridItemProps {
   Icon: any;
@@ -70,16 +68,6 @@ const Body = () => {
               Icon={ConstantYield}
               heading={t('body.grid.3.heading')}
               paragraph={t('body.grid.3.paragraph')}
-            />
-            <GridItem
-              Icon={FullyCollateralized}
-              heading={t('body.grid.4.heading')}
-              paragraph={t('body.grid.4.paragraph')}
-            />
-            <GridItem
-              Icon={Synths}
-              heading={t('body.grid.5.heading')}
-              paragraph={t('body.grid.5.paragraph')}
             />
           </Box>
         </Box>
