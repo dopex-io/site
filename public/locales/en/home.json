@@ -1,7 +1,7 @@
 {
   "siteDescription": "Dopex is a maximum liquidity and minimal exposure options protocol",
   "siteTitle": "Decentralized Options Exchange | Dopex",
-  "benefits": {
+  "products": {
     "0": {
       "name": "SSOV Options",
       "subHeader": "Vanilla",

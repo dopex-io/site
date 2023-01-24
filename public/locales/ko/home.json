@@ -1,7 +1,7 @@
 {
   "siteDescription": "Dopex는 최대 유동성 및 최소 노출 옵션 프로토콜입니다.",
   "siteTitle": "탈 중앙화 옵션 거래소 | Dopex",
-  "benefits": {
+  "products": {
     "0": {
       "name": "테일 리스크 상쇄",
       "subHeader": "옵션 작성자",

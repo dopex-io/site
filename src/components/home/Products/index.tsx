@@ -31,7 +31,7 @@ const GridItem = ({ Icon, subHeader, name, paragraph }: GridItemProps) => {
   );
 };
 
-const Benefits = () => {
+const Products = () => {
   const { t } = useTranslation('home');
 
   return (
@@ -39,25 +39,25 @@ const Benefits = () => {
       <Box className={cx('grid gap-12 md:grid-cols-3 md:px-10')}>
         <GridItem
           Icon={Graph}
-          subHeader={t('benefits.0.subHeader')}
-          name={t('benefits.0.name')}
-          paragraph={t('benefits.0.paragraph')}
+          subHeader={t('products.0.subHeader')}
+          name={t('products.0.name')}
+          paragraph={t('products.0.paragraph')}
         />
         <GridItem
           Icon={Liquidity}
-          subHeader={t('benefits.1.subHeader')}
-          name={t('benefits.1.name')}
-          paragraph={t('benefits.1.paragraph')}
+          subHeader={t('products.1.subHeader')}
+          name={t('products.1.name')}
+          paragraph={t('products.1.paragraph')}
         />
         <GridItem
           Icon={Coin}
-          subHeader={t('benefits.2.subHeader')}
-          name={t('benefits.2.name')}
-          paragraph={t('benefits.2.paragraph')}
+          subHeader={t('products.2.subHeader')}
+          name={t('products.2.name')}
+          paragraph={t('products.2.paragraph')}
         />
       </Box>
     </Section>
   );
 };
 
-export default Benefits;
+export default Products;

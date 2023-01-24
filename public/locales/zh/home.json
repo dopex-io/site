@@ -1,7 +1,7 @@
 {
   "siteDescription": "Dopex是同时具有最大流动性和最小风险敞口的期权协议",
   "siteTitle": "去中心化期权交易平台 | Dopex",
-  "benefits": {
+  "products": {
     "0": {
       "name": "抵消尾部风险",
       "subHeader": "期权卖方",
