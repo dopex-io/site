@@ -3,19 +3,19 @@
   "siteTitle": "Decentralized Options Exchange | Dopex",
   "benefits": {
     "0": {
-      "name": "SSOV",
-      "subHeader": "Structured",
-      "paragraph": "Writers sell covered options to earn premiums & staking yield, Buyers are offered options for various tokens."
+      "name": "SSOV Options",
+      "subHeader": "Vanilla",
+      "paragraph": "Provide option liquidity via covered calls or cash-secured puts while passively earning diverse sources of yields."
     },
     "1": {
-      "name": "Atlantic Options",
-      "subHeader": "DeFi Primitive",
-      "paragraph": "Atlantic options allow buyers to loan collateral locked on their options and writers to enjoy a passive funding fee."
+      "name": "Liquidity Pools",
+      "subHeader": "Option",
+      "paragraph": "A platform for option buyers to easily exit & sell their tokenized positions at any time at a discounted rate."
     },
     "2": {
-      "name": "Farms",
-      "subHeader": "Liquidity Providers",
-      "paragraph": "Minimize impermanent loss exposure in double-sided pools by earning DPX while providing liquidity."
+      "name": "Atlantic Options",
+      "subHeader": "Structured",
+      "paragraph": "A novel DeFi primitive that aims to improve collateral composability & efficiency by enabling buyers to borrow option collateral."
     }
   },
   "body": {
@@ -25,7 +25,7 @@
     "grid": {
       "0": {
         "heading": "Staking Yield",
-        "paragraph": "Your collateral never goes un-used and is put to work by staking in other protocol to earn yields."
+        "paragraph": "Your collateral never goes un-used and is put to work by staking in other protocols to earn yields."
       },
       "1": {
         "heading": "Collateral Borrowing",
@@ -36,8 +36,8 @@
         "paragraph": "Offset risk and minimize losses as a liquidity provider with rDPX rebates."
       },
       "3": {
-        "heading": "Fully Collateralized",
-        "paragraph": "All options have the collateral to back them, removing the risk of third-party defaults."
+        "heading": "Pricing Efficiency",
+        "paragraph": "Our options collateral efficiency gives Dopex a distinct advantage in pricing, allowing for immediate arbitrage opportunities."
       }
     }
   },
