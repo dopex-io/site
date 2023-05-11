@@ -17,13 +17,7 @@ import Sun from 'assets/home/Sun';
 
 import styles from './styles.module.scss';
 
-interface NavbarProps {
-  active?: 'Home';
-}
-
-export default function Navbar(props: NavbarProps) {
-  const { active } = props;
-
+export default function Navbar() {
   const [theme, setTheme] = useState('dark');
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
 
@@ -122,9 +116,9 @@ export default function Navbar(props: NavbarProps) {
           classes={{ paper: 'dark:bg-cod-gray' }}
         >
           <MenuItem onClick={handleClose}>
-            <a href="https://app.dopex.io">
-              <Typography variant="p">{t('launchApp')}</Typography>
-            </a>
+            <Link href="/frontends">
+              <Typography variant="p">{t('useDopex')}</Typography>
+            </Link>
           </MenuItem>
           {links.map((link) => {
             if (link.subLinks) {
@@ -140,11 +134,7 @@ export default function Navbar(props: NavbarProps) {
                         className="ml-4"
                         key={subLink.name}
                       >
-                        <NavLink
-                          name={subLink.name}
-                          to={subLink.to || ''}
-                          active={subLink.name === active}
-                        >
+                        <NavLink name={subLink.name} to={subLink.to || ''}>
                           <Typography variant="p" component="span">
                             {subLink.name}
                           </Typography>
@@ -157,11 +147,7 @@ export default function Navbar(props: NavbarProps) {
             }
             return (
               <MenuItem onClick={handleClose} key={link.name}>
-                <NavLink
-                  name={link.name}
-                  to={link.to || ''}
-                  active={link.name === active}
-                >
+                <NavLink name={link.name} to={link.to || ''}>
                   <Typography variant="p" component="span">
                     {link.name}
                   </Typography>
@@ -179,17 +165,11 @@ export default function Navbar(props: NavbarProps) {
                     key={link.name}
                     menuName={link.name}
                     links={link.subLinks}
-                    active={active}
                   />
                 );
               }
               return (
-                <NavLink
-                  to={link.to || ''}
-                  name={link.name}
-                  active={link.name === active}
-                  key={link.name}
-                />
+                <NavLink to={link.to || ''} name={link.name} key={link.name} />
               );
             })}
           </Box>
@@ -199,14 +179,8 @@ export default function Navbar(props: NavbarProps) {
             <Sun onClick={handleDark} className="cursor-pointer" />
           )}
           <LangMenu />
-          <Button
-            href="https://app.dopex.io"
-            variant="contained"
-            color="primary"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            {t('launchApp')}
+          <Button href="/frontends" variant="contained" color="primary">
+            {t('useDopex')}
           </Button>
         </Box>
       </Box>

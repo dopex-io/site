@@ -21,7 +21,7 @@ export default function Home() {
         <title>{t('siteTitle')}</title>
       </Head>
       <Box className="overflow-x-hidden bg-white-dark dark:bg-black text-white">
-        <Navbar active="Home" />
+        <Navbar />
         <Introduction />
         <Products />
         <Body />

@@ -8,8 +8,8 @@ import Link from 'next/link';
 
 const FooterLink: FC<{
   href: string;
-  rel: string;
-  target: string;
+  rel?: string;
+  target?: string;
   name?: string;
   Icon?: FC<{ className: string }>;
   imgSrc?: string;
@@ -50,7 +50,15 @@ const Footer = () => {
             {t('copyright')}
           </Typography>
         </Box>
-        <Box className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <Box className="grid grid-cols-1 md:grid-cols-5 gap-8">
+          <Box className="flex flex-col">
+            <Typography variant="h4" className="mb-2">
+              {t('product')}
+            </Typography>
+            <ul>
+              <FooterLink name={t('useDopex')} href="/frontends" />
+            </ul>
+          </Box>
           <Box className="flex flex-col">
             <Typography variant="h4" className="mb-2">
               {t('learn')}
