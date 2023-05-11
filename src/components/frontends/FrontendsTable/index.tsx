@@ -1,3 +1,9 @@
+import { useEffect, useState } from 'react';
+
+const TableContainer = ({ children }) => {
+  return <div className="overflow-auto">{children}</div>;
+};
+
 const TableHeader = ({ children }) => {
   return (
     <thead className="text-mono text-lg text-stieglitz uppercase">
@@ -23,50 +29,55 @@ const TableDataCell = ({ children }) => {
 };
 
 export default function FrontendsTable() {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    async function getFrontends() {
+      const data = await fetch(
+        'https://cdn.jsdelivr.net/gh/dopex-io/frontend-registry@main/list.json'
+      ).then((res) => res.json());
+
+      setData(data);
+    }
+
+    getFrontends();
+  }, []);
+
   return (
     <div className="p-4 border border-stieglitz border-opacity-50 rounded-2xl bg-cod-gray">
-      <Table>
-        <TableHeader>
-          <tr>
-            <TableHeaderCell>Name</TableHeaderCell>
-            <TableHeaderCell>Managed By</TableHeaderCell>
-            <TableHeaderCell>Powered Via</TableHeaderCell>
-            <TableHeaderCell>Link</TableHeaderCell>
-          </tr>
-        </TableHeader>
-        <tbody>
-          <tr>
-            <TableDataCell>Dopex UI</TableDataCell>
-            <TableDataCell>BossLmp (Community Member)</TableDataCell>
-            <TableDataCell>IPFS</TableDataCell>
-            <TableDataCell>
-              <a
-                href="https://dopex-ui.eth.limo"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-wave-blue"
-              >
-                Visit
-              </a>
-            </TableDataCell>
-          </tr>
-          <tr>
-            <TableDataCell>Dopex App</TableDataCell>
-            <TableDataCell>Dopex Team</TableDataCell>
-            <TableDataCell>Vercel</TableDataCell>
-            <TableDataCell>
-              <a
-                href="https://app.dopex.io"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-wave-blue"
-              >
-                Visit
-              </a>
-            </TableDataCell>
-          </tr>
-        </tbody>
-      </Table>
+      <TableContainer>
+        <Table>
+          <TableHeader>
+            <tr>
+              <TableHeaderCell>Name</TableHeaderCell>
+              <TableHeaderCell>By</TableHeaderCell>
+              <TableHeaderCell>Hosted On</TableHeaderCell>
+              <TableHeaderCell>Link</TableHeaderCell>
+            </tr>
+          </TableHeader>
+          <tbody>
+            {data.map((item) => {
+              return (
+                <tr key={item.name}>
+                  <TableDataCell>{item.name}</TableDataCell>
+                  <TableDataCell>{item.owner}</TableDataCell>
+                  <TableDataCell>{item.hostedOn}</TableDataCell>
+                  <TableDataCell>
+                    <a
+                      href={item.websiteURL}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-wave-blue"
+                    >
+                      Visit
+                    </a>
+                  </TableDataCell>
+                </tr>
+              );
+            })}
+          </tbody>
+        </Table>
+      </TableContainer>
     </div>
   );
 }

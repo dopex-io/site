@@ -24,10 +24,23 @@ const Introduction = () => {
           Users can choose a frontend from the different verified frontend
           operators for Dopex below.
         </Typography>
+        <Typography variant="p" className="text-sm mb-8 md:m-1 italic">
+          <b>Disclaimer:</b> Dopex has not entered into any form of cooperation
+          with Frontend Operators. The list of Frontend Operators is provided
+          for informational purposes only. Neither is the list conclusive, nor
+          has Dopex conducted any due diligence on these operators. Accordingly,
+          Dopex does not make any statement regarding technical functionality
+          and/or the trustworthiness of the Frontend Operators listed.
+        </Typography>
       </Box>
       <Box className="flex mb-8 justify-between items-end">
         <Box className="text-3xl font-bold">Frontends List</Box>
-        <a href="" className="text-lg underline">
+        <a
+          href="https://github.com/dopex-io/frontend-registry"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-lg underline"
+        >
           Submit a Frontend
         </a>
       </Box>
