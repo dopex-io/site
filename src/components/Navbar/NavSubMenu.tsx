@@ -14,11 +14,9 @@ type LinkType = {
 const NavSubMenu = ({
   menuName,
   links,
-  active,
 }: {
   menuName: string;
   links: LinkType[];
-  active: string;
 }) => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
 
@@ -48,11 +46,7 @@ const NavSubMenu = ({
         {links.map((link) => {
           return (
             <MenuItem onClick={handleClose} key={link.name}>
-              <NavLink
-                to={link.to || ''}
-                name={link.name}
-                active={link.name === active}
-              >
+              <NavLink to={link.to || ''} name={link.name}>
                 <Typography variant="p" component="span">
                   {link.name}
                 </Typography>

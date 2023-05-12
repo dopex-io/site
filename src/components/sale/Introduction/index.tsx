@@ -25,16 +25,6 @@ const Introduction = () => {
         >
           {t('introduction.paragraph')}
         </Typography>
-        <Box className="flex flex-col w-full sm:flex-row sm:items-center">
-          <Button
-            className="w-full h-14 mb-6 sm:h-10 sm:w-36 sm:mr-8 sm:mb-0"
-            variant="contained"
-            color="primary"
-            href="https://app.dopex.io/sale"
-          >
-            {tc('go')}
-          </Button>
-        </Box>
       </Box>
       <Box className="absolute -top-16 z-0 sm:-top-8 lg:w-1/3 lg:static lg:object-contain">
         <Launch className="transform lg:-translate-x-24 xl:-translate-x-8" />

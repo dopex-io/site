@@ -34,11 +34,9 @@ const Introduction = () => {
             variant="contained"
             color="primary"
             classes={{ label: 'text-lg md:text-sm' }}
-            href="https://app.dopex.io"
-            target="_blank"
-            rel="noreferrer noopener"
+            href="/frontends"
           >
-            {tc('launchApp')}
+            {tc('useDopex')}
           </Button>
           <Button
             variant="outlined"
