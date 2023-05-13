@@ -10,8 +10,8 @@ const Introduction = () => {
           Dopex Frontends
         </Typography>
         <Typography variant="p" className="mb-8 md:m-1">
-          Users can choose a frontend from the different verified frontend
-          operators for Dopex below.
+          Users can choose a frontend from the different frontend operators for
+          Dopex below.
         </Typography>
         <Typography variant="p" className="text-sm mb-8 md:m-1 italic">
           <b>Disclaimer:</b> Dopex has not entered into any form of cooperation
