@@ -65,6 +65,12 @@ const Footer = () => {
             </Typography>
             <ul>
               <FooterLink
+                name={t('documentation')}
+                href="https://docs.dopex.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+              />
+              <FooterLink
                 name={t('blog')}
                 href="https://blog.dopex.io/"
                 target="_blank"
@@ -109,8 +115,8 @@ const Footer = () => {
                 rel="noopener noreferrer"
               />
               <FooterLink
-                name={t('documentation')}
-                href="https://docs.dopex.io/"
+                name={t('bugBounty')}
+                href="https://github.com/dopex-io/bug-bounty"
                 target="_blank"
                 rel="noopener noreferrer"
               />

@@ -58,6 +58,7 @@ export default function Navbar() {
     {
       name: t('learn'),
       subLinks: [
+        { name: t('documentation'), to: 'https://docs.dopex.io/' },
         { name: t('blog'), to: 'https://blog.dopex.io' },
         {
           name: t('Knowledge Base'),
@@ -75,8 +76,8 @@ export default function Navbar() {
     {
       name: t('developers'),
       subLinks: [
-        { name: t('documentation'), to: 'https://docs.dopex.io/' },
         { name: t('github'), to: 'https://github.com/dopex-io' },
+        { name: t('bugBounty'), to: 'https://github.com/dopex-io/bug-bounty' },
       ],
     },
   ];

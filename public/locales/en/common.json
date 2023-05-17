@@ -42,5 +42,6 @@
   "go": "Go",
   "other": "Other",
   "product": "Product",
-  "useDopex": "Use Dopex"
+  "useDopex": "Use Dopex",
+  "bugBounty": "Bug Bounty"
 }
