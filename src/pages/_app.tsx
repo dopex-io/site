@@ -35,10 +35,6 @@ function App({ Component, pageProps }: AppProps) {
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <script
-          async
-          src="https://tag.safary.club/stag.js?id=prd_q5Qlgb9xoq"
-        ></script>
       </Head>
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-J3DKSV3EXD"
@@ -53,6 +49,7 @@ function App({ Component, pageProps }: AppProps) {
           gtag('config', 'G-J3DKSV3EXD');
         `}
       </Script>
+      <Script async src="https://tag.safary.club/stag.js?id=prd_q5Qlgb9xoq" />
       <StylesProvider injectFirst>
         <ThemeProvider theme={theme}>
           <Component {...pageProps} />
