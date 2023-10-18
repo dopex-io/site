@@ -101,6 +101,12 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               />
+              <FooterLink
+                name={t('DeBank')}
+                href="https://debank.com/official-account/113048"
+                target="_blank"
+                rel="noopener noreferrer"
+              />
             </ul>
           </Box>
           <Box className="flex flex-col">
