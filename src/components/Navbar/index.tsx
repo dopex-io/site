@@ -72,10 +72,12 @@ export default function Navbar() {
         { name: t('twitter'), to: 'https://twitter.com/dopex_io' },
         { name: t('discord'), to: 'https://discord.gg/dopex' },
         { name: t('Telegram'), to: 'https://t.me/dopexofficial' },
+        { name: t('Telegram Feed'), to: 'https://t.me/dopexnews' },
         {
           name: t('WhatsApp'),
           to: 'https://whatsapp.com/channel/0029VaDoX1847XeJCP0vNS3M',
         },
+        { name: t('DeBank'), to: 'https://debank.com/official-account/113048' },
       ],
     },
     {
