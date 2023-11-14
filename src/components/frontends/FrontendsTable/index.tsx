@@ -29,19 +29,19 @@ const TableDataCell = ({ children }) => {
 };
 
 export default function FrontendsTable() {
-  // const [data, setData] = useState([]);
+  const [data, setData] = useState([]);
 
-  // useEffect(() => {
-  //   async function getFrontends() {
-  //     const data = await fetch(
-  //       'https://cdn.jsdelivr.net/gh/dopex-io/frontend-registry@main/list.json'
-  //     ).then((res) => res.json());
+  useEffect(() => {
+    async function getFrontends() {
+      const data = await fetch(
+        'https://raw.githubusercontent.com/dopex-io/frontend-registry/main/list.json',
+      ).then((res) => res.json());
 
-  //     setData(data);
-  //   }
+      setData(data);
+    }
 
-  //   getFrontends();
-  // }, []);
+    getFrontends();
+  }, []);
 
   return (
     <div className="p-4 border border-stieglitz border-opacity-50 rounded-2xl bg-cod-gray">
@@ -81,30 +81,3 @@ export default function FrontendsTable() {
     </div>
   );
 }
-
-const data = [
-  {
-    name: 'Dopex App',
-    websiteURL: 'https://app.dopex.io',
-    dateLaunched: 'June 2021',
-    description:
-      'Official Dopex frontend, code at https://github.com/dopex-io/elvarg',
-    owner: 'Dopex',
-    hostedOn: 'Vercel',
-    contactInfo: [
-      { type: 'discord', url: 'https://discord.gg/dopex' },
-      { type: 'twitter', url: 'https://twitter.com/dopex-io' },
-      { type: 'github', url: 'https://github.com/dopex-io' },
-    ],
-  },
-  {
-    name: 'Dopex UI',
-    websiteURL: 'https://dopex-ui.eth.limo',
-    dateLaunched: '12th May 2023',
-    description:
-      'Forked from https://github.com/dopex-io/elvarg running on IPFS',
-    owner: 'BossLmp',
-    hostedOn: 'IPFS',
-    contactInfo: [{ type: 'twitter', url: 'https://twitter.com/BossImp75' }],
-  },
-];

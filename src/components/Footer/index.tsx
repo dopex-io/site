@@ -155,6 +155,7 @@ const Footer = () => {
               {t('other')}
             </Typography>
             <ul>
+              <FooterLink name="Frontends" href="/frontends" />
               <Link href="/sale">
                 <Typography variant="p" component="span">
                   {t('sale')}
