@@ -38,7 +38,7 @@ export default function Navbar() {
 
   const handleClick = useCallback(
     (event) => setAnchorEl(event.currentTarget),
-    []
+    [],
   );
 
   const handleClose = useCallback(() => setAnchorEl(null), []);
@@ -86,7 +86,7 @@ export default function Navbar() {
     <nav
       className={cx(
         'flex bg-white-dark fixed top-0 sm:px-5 w-full text-white z-50 dark:bg-black',
-        styles.navbar
+        styles.navbar,
       )}
     >
       <Box className="max-w-md mx-auto w-full flex flex-row justify-between items-center p-5 relative 2xl:max-w-6xl xl:max-w-6xl lg:max-w-4xl sm:max-w-xl sm:p-6">
@@ -180,7 +180,12 @@ export default function Navbar() {
             <Sun onClick={handleDark} className="cursor-pointer" />
           )}
           <LangMenu />
-          <Button href="/frontends" variant="contained" color="primary">
+          <Button
+            href="https://app.dopex.io"
+            rel="noopener noreferrer"
+            variant="contained"
+            color="primary"
+          >
             {t('useDopex')}
           </Button>
         </Box>

@@ -56,7 +56,11 @@ const Footer = () => {
               {t('product')}
             </Typography>
             <ul>
-              <FooterLink name={t('useDopex')} href="/frontends" />
+              <FooterLink
+                name={t('useDopex')}
+                href="https://app.dopex.io"
+                rel="noopener noreferrer"
+              />
             </ul>
           </Box>
           <Box className="flex flex-col">
