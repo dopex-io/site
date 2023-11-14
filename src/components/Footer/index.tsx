@@ -111,6 +111,24 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               />
+              <FooterLink
+                name={t('Telegram')}
+                href="https://t.me/dopexofficial"
+                target="_blank"
+                rel="noopener noreferrer"
+              />
+              <FooterLink
+                name={t('Telegram Feed')}
+                href="https://t.me/dopexnews"
+                target="_blank"
+                rel="noopener noreferrer"
+              />
+              <FooterLink
+                name={t('WhatsApp')}
+                href="https://whatsapp.com/channel/0029VaDoX1847XeJCP0vNS3M"
+                target="_blank"
+                rel="noopener noreferrer"
+              />
             </ul>
           </Box>
           <Box className="flex flex-col">
