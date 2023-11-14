@@ -9,8 +9,8 @@ interface CtaBannerProps {
 const CtaBanner = ({ title, paragraph, rightElement }: CtaBannerProps) => {
   return (
     <Box className="xl:max-w-6xl lg:max-w-4xl md:max-w-3xl sm:max-w-xl max-w-md mx-auto mt-32 mb-10 lg:mb-4">
-      <Box className="flex flex-col bg-primary rounded-lg mx-6 pt-2 pb-4 px-6 lg:h-24 lg:flex-row sm:items-center h-full">
-        <Box className="md:w-full self-start sm:mb-2">
+      <Box className="flex flex-col bg-primary rounded-lg p-3 lg:h-24 lg:flex-row sm:items-center h-full items-center">
+        <Box className="md:w-full self-start">
           <span className="text-white dark:text-white font-medium text-lg">
             {title}
           </span>
