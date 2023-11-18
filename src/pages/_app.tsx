@@ -49,7 +49,6 @@ function App({ Component, pageProps }: AppProps) {
           gtag('config', 'G-J3DKSV3EXD');
         `}
       </Script>
-      <Script async src="https://tag.safary.club/stag.js?id=prd_q5Qlgb9xoq" />
       <StylesProvider injectFirst>
         <ThemeProvider theme={theme}>
           <Component {...pageProps} />
